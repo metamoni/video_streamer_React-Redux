@@ -6,8 +6,9 @@
       "id": 1
     },
     {
-      "title": "My stream 1",
-      "description": "This is my first stream",
+      "title": "Stream 3",
+      "description": "This was made by me",
+      "userId": "101996926310174663842",
       "id": 2
     }
   ]
