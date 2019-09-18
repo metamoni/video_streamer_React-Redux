@@ -10,6 +10,24 @@
       "description": "This was made by me",
       "userId": "101996926310174663842",
       "id": 2
+    },
+    {
+      "title": "Unexpected behaviour",
+      "description": "Didn't expect that",
+      "userId": "101996926310174663842",
+      "id": 3
+    },
+    {
+      "title": "New stream",
+      "description": "Short description of my latest stream",
+      "userId": "101996926310174663842",
+      "id": 4
+    },
+    {
+      "title": "Another stream",
+      "description": "this is a new stream that I created",
+      "userId": "101996926310174663842",
+      "id": 5
     }
   ]
 }
