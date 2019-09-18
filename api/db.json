@@ -1,32 +1,20 @@
 {
   "streams": [
     {
-      "title": "My stream 1",
-      "description": "This is my first stream",
+      "title": "First stream",
+      "description": "This is the first stream ever created",
       "id": 1
     },
     {
-      "title": "Stream 3",
-      "description": "This was made by me",
-      "userId": "101996926310174663842",
-      "id": 2
-    },
-    {
-      "title": "Unexpected behaviour",
-      "description": "Didn't expect that",
-      "userId": "101996926310174663842",
-      "id": 3
-    },
-    {
-      "title": "New stream",
-      "description": "Short description of my latest stream",
+      "title": "Another stream",
+      "description": "This is a new stream that I created",
       "userId": "101996926310174663842",
       "id": 4
     },
     {
-      "title": "Another stream",
-      "description": "this is a new stream that I created",
-      "userId": "101996926310174663842",
+      "description": "This stream was created by someone else",
+      "title": "Live flights from Budapest Airport",
+      "userId": null,
       "id": 5
     }
   ]
