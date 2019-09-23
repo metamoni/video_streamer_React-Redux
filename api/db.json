@@ -16,6 +16,12 @@
       "title": "Live flights from Budapest Airport",
       "userId": null,
       "id": 5
+    },
+    {
+      "title": "Title",
+      "description": "Description of stream",
+      "userId": "101996926310174663842",
+      "id": 6
     }
   ]
 }
