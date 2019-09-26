@@ -8,17 +8,18 @@ class StreamEdit extends React.Component {
   componentDidMount() {
     const streamId = this.props.match.params.id;
     this.props.fetchStream(streamId);
-  }
+  };
 
   onSubmit = formValues => {
-    console.log(formValues)
+    const streamId = this.props.match.params.id;
+    this.props.editStream(streamId, formValues);
   };
 
   render() {
     if (!this.props.stream) {
       return <p>Loading...</p>
-    }
-    const formValues = _.pick(this.props.stream, 'title', 'description')
+    };
+    const formValues = _.pick(this.props.stream, 'title', 'description');
 
     return(
       <article>
@@ -32,7 +33,7 @@ class StreamEdit extends React.Component {
 };
 
 const mapStateToProps = (state, ownProps) => {
-  const id = ownProps.match.params.id
+  const id = ownProps.match.params.id;
 
   return {
     stream: state.streams[id]
