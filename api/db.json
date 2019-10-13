@@ -18,8 +18,8 @@
       "id": 5
     },
     {
-      "title": "Title",
-      "description": "Description of stream",
+      "title": "New title",
+      "description": "This change was made using a PATCH request",
       "userId": "101996926310174663842",
       "id": 6
     }
