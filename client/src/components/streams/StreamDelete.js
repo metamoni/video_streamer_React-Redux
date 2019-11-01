@@ -1,8 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import Modal from '../Modal';
 import history from '../../history';
-import { fetchStream } from '../../actions';
+import { fetchStream, deleteStream } from '../../actions';
 
 class StreamDelete extends React.Component {
   componentDidMount() {
@@ -10,10 +11,15 @@ class StreamDelete extends React.Component {
   };
 
   renderActions() {
+    const { id } = this.props.match.params;
     return (
       <>
-        <button className="ui button">Cancel</button>
-        <button className="ui button primary">Delete</button>
+        <Link to="/" className="ui button">Cancel</Link>
+        <button 
+          onClick={() => this.props.deleteStream(id)} 
+          className="ui button primary">
+          Delete
+        </button>
       </>
     )
   };
@@ -49,4 +55,4 @@ const mapStateToProps = (state, ownProps) => {
   }
 };
 
-export default connect(mapStateToProps, { fetchStream })(StreamDelete);
+export default connect(mapStateToProps, { fetchStream, deleteStream })(StreamDelete);

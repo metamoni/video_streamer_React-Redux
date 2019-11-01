@@ -6,18 +6,6 @@
       "id": 1
     },
     {
-      "title": "Another stream",
-      "description": "This is a new stream that I created",
-      "userId": "101996926310174663842",
-      "id": 4
-    },
-    {
-      "description": "This stream was created by someone else",
-      "title": "Live flights from Budapest Airport",
-      "userId": null,
-      "id": 5
-    },
-    {
       "title": "Learning React",
       "description": "This change was made using a PATCH request",
       "userId": "101996926310174663842",
