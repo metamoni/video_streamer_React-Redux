@@ -10,6 +10,12 @@
       "description": "This change was made using a PATCH request",
       "userId": "101996926310174663842",
       "id": 6
+    },
+    {
+      "title": "Peanut butter banana brownies",
+      "description": "This is a recipe for gluten, egg, and dairy-free brownies",
+      "userId": "101996926310174663842",
+      "id": 7
     }
   ]
 }
